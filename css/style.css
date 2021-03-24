@@ -1,0 +1,308 @@
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    position: relative;
+    font-family: 'Fraunces', serif;
+}
+
+/* chane nav style*/
+.new-nav{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+/* change navbar link style*/
+.new-nav .navbar-nav .nav-link {
+    color: rgb(0, 119, 255);
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    padding:15px 15px 15px 15px;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    padding-left:50px;
+    color: rgb(0, 119, 255);;
+    text-shadow: 2px 2px 4px #a09f9f;
+}
+
+/* About me card */
+.about{
+    width:70%;
+    height:600px;
+    background-color: rgb(3, 3, 3);
+    margin-top: 100px;
+    margin-left:100px;
+    opacity: 0.8;
+}
+#aboutHead{
+    font-family: 'Fraunces', serif;
+    color:white;
+    padding:60px 20px 40px 40px;
+    
+}
+.text-me{
+    color:rgb(129, 219, 255);
+    font-family: 'Fraunces', serif;
+    font-size:18px;
+    line-height: 30px;
+    padding-top:20px;;
+}
+.text-me2{
+    color:rgb(129, 219, 255);
+    font-family: 'Fraunces', serif;
+    font-size:18px;
+    line-height: 30px;
+    padding:20px 0px 0px 60px;
+}
+
+/* contact page*/
+
+.contact-card{
+    margin: 150px 0px 50px 70px;
+    background-color: #496b5e;
+    opacity:0.9;
+}
+.contact-body{
+    padding: 50px 80px 50px 50px;
+}
+
+.contact-title{
+    font-family: 'Fraunces', serif;
+    font-size:40px;
+    color:#a9ecd2
+}
+.submit-btn{
+    font-family: 'Fraunces', serif;
+    font-size:18px;
+    background-color:#31745a;
+    border-color: #00c278;
+}
+
+.contact-label{
+    font-size: 18px;
+    color:#a9ecd2
+}  
+
+
+  /* Portfolio */
+
+  .portfolio-card {
+    margin: 150px 0px 250px 0px;
+    background-color: #000000;
+    opacity:0.8; 
+  }
+  .portfolio-text{
+      justify-content: center;
+      font-weight: bold;
+      font-size: 20px;
+      color:crimson;
+  }
+  .card{
+    transition:0.5s;
+    cursor:pointer;
+    margin-bottom:60px;
+  }
+  .card-title{  
+    transition:1s;
+    cursor:pointer;
+    padding:1px;
+    font-family: 'Times New Roman', Times, serif;
+  
+   
+  }
+  .card-title i{  
+    font-size:15px;
+    transition:1s;
+    cursor:pointer;
+    color:#ffa710
+  }
+  .card-title i:hover{
+    transform: scale(1.25) rotate(100deg); 
+    color:#18d4ca;
+    
+  }
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  }
+  .card-text{
+   margin:10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size:18px;
+  }
+  
+  .card::before, .card::after {
+   
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(119, 122, 126, 0.027);
+    content: '';
+    pointer-events: none;
+  }
+  .card::before {
+    transform-origin: left top;
+  }
+  .card::after {
+    transform-origin: right bottom;
+  }
+  .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+    transform: scale3d(1, 1, 1);
+  }
+
+  /*social*/
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px
+}
+
+.social-network a.icolinkedin:hover {
+    background-color: #3B5998
+}
+
+.social-network a.icogithub:hover {
+    background-color: #33ccff
+}
+
+.social-network a.icofile:hover {
+    background-color: #BD3518
+}
+
+.social-network a.icolinkedin:hover i,
+.social-network a.icogithub:hover i,
+.social-network a.icofile:hover i {
+    color: #fff
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s
+}
+.social-txt{
+    color:rgb(255, 217, 0);
+}
+a{
+    text-decoration: none; 
+}
+  /* footer*/
+  .footer {
+    font-size:30px;
+    padding: 4px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-top: 5px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+  .fa-style{
+    font-size: 20px; color: rgb(255, 30, 225);
+    margin-right:10px;
+  }
+
+  ul.text-me{
+    list-style-type: none;
+  }
+
+  .hr-style{
+    border: 1px solid rgb(255, 0, 157);
+    width:60%;
+    margin: auto;
+  }
+
+  /* media queries */
+@media screen and (max-width: 992px) {
+    .portfolio-card {
+        margin: 150px 0px 0px 0px !important;
+       
+      }
+    .contact-card{
+        margin: 50px 10px 40px 10px;
+       
+    }
+    .text-me{
+        font-size:16px;
+        line-height: 30px;
+    }
+    .navbar-brand{
+        font-size: 35px;
+
+    }
+    .new-nav .navbar-nav .nav-link {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        background-color: rgb(255, 255, 255);
+        border-bottom:2px solid rgb(0, 0, 0);
+        position: relative;
+        z-index: 5;
+    }
+    .footer{
+        font-size:22px;
+    }
+    
+  }
+  @media screen and (max-width: 600px) {
+    .contact-body{
+        padding: 50px 10px 50px 10px;
+    }
+    .text-me{
+        padding-left:6px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+    .contact-title{
+        font-size:28px;
+        margin: 0 auto
+    }
+    .emailStyle{
+        display:block;
+        padding-left:5px;
+    }
+  }
