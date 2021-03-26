@@ -179,34 +179,6 @@ a.socialIcon:hover,
 a{
     text-decoration: none; 
 }
-  /* footer*/
-  .footer {
-    font-size:30px;
-    padding: 4px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-top: 5px solid rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    text-align: center;
-  }
-
-  .fa-style{
-    font-size: 20px; color: rgb(255, 30, 225);
-    margin-right:10px;
-  }
-
-  ul.text-me{
-    list-style-type: none;
-  }
-
-  .hr-style{
-    border: 1px solid rgb(255, 0, 157);
-    width:60%;
-    margin: auto;
-  }
 
   /* media queries */
 @media screen and (max-width: 992px) {
