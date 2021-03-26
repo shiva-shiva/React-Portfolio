@@ -1,0 +1,26 @@
+
+  .contact-card{
+    margin: 150px 0px 50px 70px;
+    background-color: #496b5e;
+    opacity:0.9;
+}
+.contact-body{
+    padding: 50px 80px 50px 50px;
+}
+
+.contact-title{
+    font-family: 'Fraunces', serif;
+    font-size:40px;
+    color:#a9ecd2
+}
+.submit-btn{
+    font-family: 'Fraunces', serif;
+    font-size:18px;
+    background-color:#31745a;
+    border-color: #00c278;
+}
+
+.contact-label{
+    font-size: 18px;
+    color:#a9ecd2
+}  
