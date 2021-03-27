@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 function Footer(){
     return(
-        <footer class="footer">
+        <footer className="footer">
         <p>@Copyright</p>
       </footer>
     )
