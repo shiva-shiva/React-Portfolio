@@ -3,7 +3,7 @@ import initialData from '../../utils/data'
 import "./style.css";
 function Portfolio(){
 
- const [ cardData, setMyInput ]= useState( [])
+ const [ cardData, setMyInput ]= useState([])
    useEffect( function(){
         console.log(initialData)
         setMyInput(initialData);

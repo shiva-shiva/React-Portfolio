@@ -1,0 +1,49 @@
+/* chane nav style*/
+.new-nav{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+/* change navbar link style*/
+.new-nav .navbar-nav .nav-link {
+    color: rgb(0, 119, 255);
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    padding:15px 15px 15px 15px;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 45px;
+    padding-left:50px;
+    color: rgb(0, 119, 255);;
+    text-shadow: 2px 2px 4px #a09f9f;
+}
+
+/* About me card */
+.about{
+    width:70%;
+    height:600px;
+    background-color: rgb(3, 3, 3);
+    margin-top: 100px;
+    margin-left:100px;
+    opacity: 0.8;
+}
+#aboutHead{
+    font-family: 'Fraunces', serif;
+    color:white;
+    padding:60px 20px 40px 40px;
+    
+}
+.text-me{
+    color:rgb(129, 219, 255);
+    font-family: 'Fraunces', serif;
+    font-size:18px;
+    line-height: 30px;
+    padding-top:20px;;
+}
+.text-me2{
+    color:rgb(129, 219, 255);
+    font-family: 'Fraunces', serif;
+    font-size:18px;
+    line-height: 30px;
+    padding:20px 0px 0px 60px;
+}
