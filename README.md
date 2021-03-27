@@ -7,7 +7,7 @@
 
 ## Description 
 
-It is a personal static website/portfolio  hosted with GitHub Pages, built to showcase my recent projects. <h4>Click [here](https://shiva-portfolio-react.herokuapp.com/) for demo.</h4>
+It is a personal SPA portfolio built with React. To showcase my recent projects. <h4>Click [here](https://shiva-portfolio-react.herokuapp.com/) for demo.</h4>
 
 ## ✨Demo
 
