@@ -13,13 +13,13 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
                         <li className="nav-item">
-                            <NavLink className="nav-link" aria-current="page" to="./contact">Contact</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to="./contact" activeClassName="activeStyle">Contact</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="./portfolio">Portfolio</NavLink>
+                            <NavLink className="nav-link" to="./portfolio" activeClassName="activeStyle">Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/" >About</NavLink>
+                            <NavLink className="nav-link" to="/" activeClassName="activeStyle" >About</NavLink>
                         </li>
                     </ul>
                 </div>

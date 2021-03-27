@@ -47,3 +47,7 @@
     line-height: 30px;
     padding:20px 0px 0px 60px;
 }
+
+.activeStyle{
+    color:burlywood !important;
+}
