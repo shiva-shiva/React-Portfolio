@@ -16,25 +16,25 @@ It is a personal static website/portfolio  hosted with GitHub Pages, built to sh
 
 
 
-## ✔️ Structure
-### Navigation bar
+##  Structure
+### ✔️Navigation bar
 
     Portfolio
     Contact 
     Resume | About me
 
-### About Me
+### ✔️About Me
 
      Display picture
      Technical Skills
      Soft Skills
      About myself, my Interests, Goals and Hobbies
 
-### portfolio
+### ✔️portfolio
 
      Recent Projects (using GitHub API)
 
-### Footer
+### ✔️Footer
 
      Copyrights - open source
     
