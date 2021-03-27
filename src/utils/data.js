@@ -1,6 +1,6 @@
 
 
-export const initialData = [
+ const initialData = [
   {
     name:"RedAPlus",
     Url:"https://www.redaplus.com/",
@@ -39,4 +39,5 @@ export const initialData = [
 }
 ]
 
+export default initialData
 
