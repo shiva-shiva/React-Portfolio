@@ -9,7 +9,7 @@ function Navbar() {
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>
-                <NavLink className="navbar-brand" to="/">Shiva Sabokdast</NavLink>
+                <NavLink className="navbar-brand" to="/"  exact={true}>Shiva Sabokdast</NavLink>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
                         <li className="nav-item">
@@ -19,7 +19,7 @@ function Navbar() {
                             <NavLink className="nav-link" to="./portfolio" activeClassName="activeStyle">Portfolio</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/" activeClassName="activeStyle" >About</NavLink>
+                            <NavLink className="nav-link" to="/"   exact={true} activeClassName="activeStyle" >About</NavLink>
                         </li>
                     </ul>
                 </div>
